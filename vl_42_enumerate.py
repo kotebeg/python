@@ -6,7 +6,7 @@ Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 
 for key, value in Dict.items():
     print(key, value)
-    pass
+    # pass
 
 
 # enumerate

@@ -1,6 +1,6 @@
 # python docs
 
-* **generators.ipynb**
+## generators.ipynb
 - iterator, `iter`
 - `yeld` keyword
 - generator comprehension with `range`

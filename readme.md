@@ -1,4 +1,7 @@
 # python docs
 
 * **generators.ipynb**
-- `yeld` generator
+- iterator, `iter`
+- `yeld` keyword
+- generator comprehension
+

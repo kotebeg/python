@@ -1,3 +1,3 @@
 # python docs
 
-# * generators.ipynb
+* **generators.ipynb**

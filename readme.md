@@ -3,5 +3,5 @@
 * **generators.ipynb**
 - iterator, `iter`
 - `yeld` keyword
-- generator comprehension
+- generator comprehension with `range`
 

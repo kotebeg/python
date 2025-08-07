@@ -24,3 +24,14 @@ func_mapping
 
 
 func_mapping['square']
+
+
+
+#  Returning Functions
+def get_func(func_name):
+    func_mapping = {'square': square, 'cube': cube}
+    return func_mapping.get(func_name, None)  # return function
+
+
+my_func = get_func('cube')
+my_func(7)

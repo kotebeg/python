@@ -35,3 +35,15 @@ def get_func(func_name):
 
 my_func = get_func('cube')
 my_func(7)
+
+
+
+#  Arguments Provided by Position
+
+def sub_number(minuend, subtrahend):
+  print(f"{minuend}-{subtrahend}={minuend - subtrahend}")
+
+sub_number(3, 1) # 3 assigned to minuend, 1 – subtrahend, 
+
+
+sub_number(1, 3) # 1 assigned to minuend, 3 – subtrahend

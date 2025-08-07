@@ -47,3 +47,15 @@ sub_number(3, 1) # 3 assigned to minuend, 1 – subtrahend,
 
 
 sub_number(1, 3) # 1 assigned to minuend, 3 – subtrahend
+
+
+
+# Arguments Provided by Name
+def sub_number(minuend, subtrahend):
+  print(f"{minuend}-{subtrahend}={minuend - subtrahend}")
+
+
+sub_number(minuend=3, subtrahend=1) # 3 assigned to minuend, 1 – subtrahend
+
+
+sub_number(subtrahend=1, minuend=3) # the same herA

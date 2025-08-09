@@ -59,3 +59,22 @@ sub_number(minuend=3, subtrahend=1) # 3 assigned to minuend, 1 – subtrahend
 
 
 sub_number(subtrahend=1, minuend=3) # the same herA
+
+
+def show_arguments(*args, **kwargs):
+  print(f"args: {args}; kwargs: {kwargs}")
+
+
+show_arguments(1, 'name', arg1=[1, 2, 3], arg2='value')
+
+#args: (1, 'name'); kwargs: {'arg1': [1, 2, 3], 'arg2': 'value'}
+
+
+def show_arguments(*args, **kwargs):
+  print(args[1:-1])
+  print(kwargs['name'])
+
+show_arguments(1, 'name', 'value', 10, name='arg1', arg2='Tom')
+
+('name', 'value')
+arg1

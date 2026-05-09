@@ -10,6 +10,18 @@ C:\Python312\Lib                      ← standard library folder
 C:\Python312\DLLs                     ← C extension modules
 C:\Python312                          ← Python install root
 C:\Python312\Lib\site-packages        ← third-party packages (pip installs here)
+
+
+Index  Location                              What lives there
+─────  ────────────────────────────────────  ──────────────────────────────
+  0    Script's directory (or '' for REPL)   User own .py files
+  1    PYTHONPATH entries                    Custom locations from env var
+  2    Standard library .zip                 e.g. python312.zip
+  3    Standard library folder               Lib\  (os, sys, json, re, ...)
+  4    DLLs / C extension folder             DLLs\  (compiled modules)
+  5    Python install root                   C:\Python312\
+  6    site-packages                         Third-party (pandas, django, ...)
+  7    Anything user appends at runtime       path.append(...) goes here
 """
 
 """The robust pattern is to anchor the path to the script's own location:
